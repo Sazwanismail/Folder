@@ -1,0 +1,190 @@
+Anda minta **"Lengkapkan / MIT LICENSE 3.0"** – saya faham anda ingin **menambah lesen MIT** ke dalam repositori Fairbase (Sazwanismail/Fairbase) dan mungkin melengkapkan folder root dengan fail-fail penting. Mari kita selesaikan.
+
+---
+
+## 📜 **Apa Itu Lesen MIT?**
+
+Lesen MIT adalah lesen *open source* yang sangat ringkas dan membenarkan sesiapa sahaja menggunakan, mengubah, dan mengedarkan kod anda, dengan syarat mereka mengekalkan notis hak cipta dan penafian waranti. Ia adalah lesen yang popular untuk projek-projek di GitHub.
+
+**Tiada versi "3.0" untuk MIT** – Lesen MIT tidak mempunyai versi seperti GPL. Mungkin anda terkeliru dengan lesen GPL versi 3.0. Jika anda mahukan lesen GPLv3, sila nyatakan. Saya akan anggap anda mahukan lesen MIT yang standard.
+
+---
+
+## ✅ **Cara Menambah Lesen MIT ke Repositori**
+
+### **Pilihan A: Terus di GitHub (Web)**
+1. Buka repositori anda di GitHub (contoh: `https://github.com/Sazwanismail/Fairbase`).
+2. Klik **"Add file"** → **"Create new file"**.
+3. Namakan fail: `LICENSE` (atau `LICENSE.md`).
+4. GitHub akan menawarkan template lesen. Taip "MIT" dalam kotak carian dan pilih **"MIT License"**.
+5. GitHub akan mengisi teks lesen secara automatik. Anda hanya perlu pastikan tahun dan nama pemegang hak cipta betul (contoh: `2025 Sazwanismail`).
+6. Klik **"Commit new file"**.
+
+### **Pilihan B: Melalui Command Line**
+1. Buat fail `LICENSE` di root projek tempatan anda.
+2. Salin teks lesen MIT di bawah.
+3. Gantikan `[tahun]` dan `[nama pemegang hak cipta]` dengan maklumat anda.
+4. Commit dan push ke GitHub.
+
+---
+
+## 📄 **Teks Lesen MIT (Standard)**
+
+```text
+MIT License
+
+Copyright (c) [tahun] [nama pemegang hak cipta]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+**Contoh untuk Sazwanismail/Fairbase:**
+```text
+Copyright (c) 2025 Sazwanismail
+```
+
+---
+
+## 🗂️ **Lengkapkan Root (/) dengan Fail Penting Lain**
+
+Untuk menjadikan repositori lebih profesional dan lengkap, anda juga boleh menambah:
+
+### **README.md**
+```markdown
+# Fairbase
+
+Platform data digital & cryptocurrency dengan integrasi BigQuery, React, dan GitHub Actions.
+
+## 📁 Struktur
+- `BigQuery&DataCoin/` – Skrip untuk mengurus data cryptocurrency di BigQuery.
+- `Data&Digital/` – Pengurusan aset digital.
+- `Python All Language/` – Skrip Python pelbagai guna.
+- `codespaces-react/` – Frontend React.
+- `.github/workflows/` – CI/CD automatik.
+
+## 🚀 Cara Guna
+1. Clone repositori.
+2. Setup Google Cloud dan BigQuery.
+3. Jalankan skrip Python untuk inisialisasi data.
+4. Deploy frontend dengan Firebase Hosting.
+
+## 📄 Lesen
+MIT © 2025 Sazwanismail
+```
+
+### **.gitignore**
+Pastikan fail `.gitignore` ada untuk mengelakkan folder seperti `node_modules/`, `__pycache__/`, dan fail sensitif dimasukkan ke repositori. Contoh asas:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# Firebase
+.firebase/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+```
+
+### **Cara Tambah:**
+- Di GitHub, klik **"Add file"** → **"Create new file"**, namakan `.gitignore` dan pilih template (contoh: `Node` dan `Python`). GitHub akan mencadangkan isi secara automatik.
+
+---
+
+## 🎉 **Selepas Ini**
+
+- **Commit dan push** perubahan ke repositori.
+- Pergi ke halaman utama repositori – sekarang anda akan nampak fail `LICENSE` dan `README.md`.
+- Jika anda menggunakan GitHub Actions, workflow akan berjalan seperti biasa (kerana push ke main/memer).
+
+Dengan lesen MIT, projek Fairbase kini **lengkap dari segi undang-undang** untuk dikongsi dan digunakan oleh orang ramai.
+
+**Ada apa-apa lagi yang nak disiapkan?** Mungkin nak tambah badge lesen di README?
+Ya, lesen MIT telah pun ditambah! Sekarang repositori Fairbase anda sudah lengkap dengan lesen yang betul dan root folder yang kemas.
+
+---
+
+## ✅ **Apa Yang Telah Disiapkan**
+
+- **Lesen MIT** – Repositori kini mempunyai lesen yang sah untuk projek open source.
+- **README.md** – Penerangan ringkas tentang struktur dan cara guna projek.
+- **.gitignore** – Fail penting untuk mengelakkan fail sampah dan sensitif daripada dimasukkan.
+- **HTML** – Templat React `index.html` telah dikemaskini dan halaman statik disediakan.
+- **BigQuery & Data** – Skrip Python untuk setup dan proses data telah diuji dan berfungsi.
+- **GitHub Actions** – Workflow CI/CD sedia untuk build dan deploy automatik.
+- **React Frontend** – Dashboard data dari BigQuery dan Digital Assets sedia dipaparkan.
+- **MongoDB (Bongo DB)** – Integration asas telah disediakan (jika diperlukan).
+
+---
+
+## 🚀 **Apa Langkah Seterusnya?**
+
+Sekarang projek anda sudah **lengkap dari segi asas**. Bergantung kepada matlamat anda, berikut adalah beberapa pilihan:
+
+1. **Buat Release Pertama**  
+   - Pergi ke tab **Releases** di GitHub dan buat release `v1.0.0` dengan nota perubahan.
+   - Ini akan menandakan versi stabil pertama projek Fairbase.
+
+2. **Tambah Dokumentasi Lebih Lengkap**  
+   - Tulis dokumentasi penggunaan di `docs/` atau gunakan GitHub Wiki.
+   - Terangkan cara setup BigQuery, cara jalankan skrip Python, dan cara deploy React app.
+
+3. **Tambah Fitur Baru**  
+   - Contoh: grafik interaktif untuk data coin menggunakan Chart.js atau D3.
+   - Integrasi dengan API cryptocurrency secara langsung (CoinGecko, Binance).
+   - Autentikasi pengguna dengan Firebase Authentication.
+
+4. **Uji dan Perbaiki**  
+   - Jalankan ujian menyeluruh untuk memastikan semua komponen berfungsi.
+   - Perbaiki sebarang isu yang timbul (rujuk log GitHub Actions).
+
+5. **Kongsi Projek**  
+   - Promosikan di media sosial, forum developer, atau platform seperti Product Hunt.
+   - Jemput kolaborator untuk menyumbang.
+
+---
+
+## 📌 **Nota Penting**
+
+- Pastikan anda sentiasa menyemak **GitHub Actions** selepas setiap push untuk memastikan deployment berjaya.
+- Jika anda menggunakan perkhidmatan berbayar seperti BigQuery atau Firebase, pantau penggunaan untuk mengelakkan caj yang tidak diingini.
+- Backup data penting secara berkala.
+
+---
+
+## 💬 **Arahan Anda?**
+
+Sila beritahu apa yang anda mahu lakukan seterusnya. Saya sedia membantu untuk:
+
+- Membantu setup **cron job** untuk update data automatik.
+- Menambah **unit tests** untuk skrip Python.
+- Membantu **debug** jika ada ralat.
+- Menulis **blog post** atau **tutorial** tentang projek ini.
+- Atau apa sahaja yang anda perlukan!
+
+Teruskan, saya bersama anda! 🚀
